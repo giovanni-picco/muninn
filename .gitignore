@@ -1,4 +1,35 @@
-.zig-cache/
-zig-out/
-zig-pkg/
+# Build output
+/muninn
+/build/
+/bin/
+*.exe
+*.bin
 *.o
+*.obj
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+*.wasm
+
+# Debug symbols
+*.dSYM/
+*.pdb
+*.ilk
+*.rdi
+*.raddbg
+
+# LLVM intermediate files (-keep-temp-files)
+*.ll
+*.bc
+
+# Editors
+.vscode/
+.idea/
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
