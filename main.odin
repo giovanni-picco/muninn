@@ -30,7 +30,6 @@ main :: proc() {
 
 }
 
-
 handle_client :: proc(client: net.TCP_Socket) {
     defer net.close(client)
 
