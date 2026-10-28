@@ -12,6 +12,10 @@
 *.so
 *.dylib
 *.wasm
+.zig-cache/
+zig-out/
+zig-pkg/
+*.o
 
 # Debug symbols
 *.dSYM/
