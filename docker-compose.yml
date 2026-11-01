@@ -1,0 +1,9 @@
+services:
+  db:
+    image: postgres:17-alpine
+    container_name: db
+    environment:
+      POSTGRES_PASSWORD: muninn!
+      POSTGRES_DB: muninn
+    ports:
+      - "5432:5432"
